@@ -88,16 +88,40 @@ span{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
-    height: 500px;
+    height: 700px;
 }
 
 .full-stack{
     width: 40%;
     float: left;
-    margin: 20px 50px;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 60%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: 5px solid;
+    border-image: linear-gradient(lightsalmon, tomato);
+    border-image-slice: 1;
+}
+.full-stack h1{
+    font-size: 40px;
 }
 .baby-web{
     width: 40%;
     float: left;
-    margin: 20px 50px;
+    margin-left: 5%;
+    padding-left: 2%;
+    height: 60%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+.baby-web h1{
+    font-size: 40px;
+}
+
+footer{
+    text-align: center;
 }
