@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+.section-1-background{
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: fit-content;
+    height: 500px;
+    margin-bottom: 150px;
+}
+
+.section-1-left{
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.section-1-right{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: orange;
+}
+.section-1-right img{
+    width: 550px;
+}
+.hire-btn{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+/* section-2  */
+
+.section-2-background{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 650px;
+}
+
+.section-2-left{
+    width: 50%;
+    float: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.section-2-left img{
+    width: 550px;
+}
+.section-2-right{
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+    padding-right: 80px;
+}
+.section-2-background h1{
+    font-size: 40px;
+}
+.download-btn{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    padding: 10px 40px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+/* experience section  */
+
+.experience-sec{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 500px;
+}
+
+.full-stack{
+    width: 40%;
+    float: left;
+    margin: 20px 50px;
+}
+.baby-web{
+    width: 40%;
+    float: left;
+    margin: 20px 50px;
+}
